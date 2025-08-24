@@ -1,0 +1,275 @@
+{
+  "cities": ["Chennai", "Mumbai", "Bangalore", "Hyderabad", "Kolkata", "Delhi"],
+  "routes": [
+    {
+      "from": "Chennai",
+      "to": "Mumbai",
+      "time": {
+        "Bus": 12,
+        "Train": 10,
+        "Flight": 2
+      }
+    },
+    {
+      "from": "Chennai",
+      "to": "Bangalore",
+      "time": {
+        "Bus": 6,
+        "Train": 5,
+        "Flight": 1
+      }
+    },
+    {
+      "from": "Chennai",
+      "to": "Hyderabad",
+      "time": {
+        "Bus": 14,
+        "Train": 11,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Chennai",
+      "to": "Kolkata",
+      "time": {
+        "Bus": 20,
+        "Train": 16,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Chennai",
+      "to": "Delhi",
+      "time": {
+        "Bus": 24,
+        "Train": 18,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Bangalore",
+      "to": "Chennai",
+      "time": {
+        "Bus": 6,
+        "Train": 5,
+        "Flight": 1
+      }
+    },
+    {
+      "from": "Bangalore",
+      "to": "Mumbai",
+      "time": {
+        "Bus": 14,
+        "Train": 10,
+        "Flight": 2
+      }
+    },
+    {
+      "from": "Bangalore",
+      "to": "Hyderabad",
+      "time": {
+        "Bus": 12,
+        "Train": 8,
+        "Flight": 2
+      }
+    },
+    {
+      "from": "Bangalore",
+      "to": "Kolkata",
+      "time": {
+        "Bus": 22,
+        "Train": 16,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Bangalore",
+      "to": "Delhi",
+      "time": {
+        "Bus": 24,
+        "Train": 18,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Chennai",
+      "time": {
+        "Bus": 8,
+        "Train": 6,
+        "Flight": 2
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Bangalore",
+      "time": {
+        "Bus": 12,
+        "Train": 9,
+        "Flight": 2
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Mumbai",
+      "time": {
+        "Bus": 16,
+        "Train": 10,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Kolkata",
+      "time": {
+        "Bus": 22,
+        "Train": 14,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Delhi",
+      "time": {
+        "Bus": 24,
+        "Train": 16,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Mumbai",
+      "to": "Chennai",
+      "time": {
+        "Bus": 20,
+        "Train": 16,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Mumbai",
+      "to": "Bangalore",
+      "time": {
+        "Bus": 14,
+        "Train": 10,
+        "Flight": 2
+      }
+    },
+    {
+      "from": "Mumbai",
+      "to": "Hyderabad",
+      "time": {
+        "Bus": 16,
+        "Train": 12,
+        "Flight": 2
+      }
+    },
+    {
+      "from": "Mumbai",
+      "to": "Kolkata",
+      "time": {
+        "Bus": 24,
+        "Train": 18,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Mumbai",
+      "to": "Delhi",
+      "time": {
+        "Bus": 22,
+        "Train": 14,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Chennai",
+      "time": {
+        "Bus": 24,
+        "Train": 20,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Bangalore",
+      "time": {
+        "Bus": 22,
+        "Train": 18,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Hyderabad",
+      "time": {
+        "Bus": 20,
+        "Train": 16,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Mumbai",
+      "time": {
+        "Bus": 24,
+        "Train": 18,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Delhi",
+      "time": {
+        "Bus": 22,
+        "Train": 16,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Chennai",
+      "time": {
+        "Bus": 24,
+        "Train": 20,
+        "Flight": 5
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Bangalore",
+      "time": {
+        "Bus": 22,
+        "Train": 18,
+        "Flight": 4
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Hyderabad",
+      "time": {
+        "Bus": 20,
+        "Train": 16,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Mumbai",
+      "time": {
+        "Bus": 22,
+        "Train": 18,
+        "Flight": 3
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Kolkata",
+      "time": {
+        "Bus": 24,
+        "Train": 18,
+        "Flight": 4
+      }
+    }
+  ]
+}

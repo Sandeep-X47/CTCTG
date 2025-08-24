@@ -1,0 +1,1503 @@
+{
+  "cities": ["Chennai", "Mumbai", "Bangalore", "Hyderabad", "Kolkata", "Delhi"],
+
+  "routes": [
+    {
+      "from": "Chennai",
+      "to": "Mumbai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1330,
+          "time_hr": 24,
+          "cost_inr": 1800
+        },
+        "train": {
+          "distance_km": 1330,
+          "time_hr": 22,
+          "cost_inr": 1500
+        },
+        "flight": {
+          "distance_km": 1030,
+          "time_hr": 2,
+          "cost_inr": 4000
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Mumbai",
+      "via": ["Bangalore"],
+      "modes": {
+        "bus": {
+          "distance_km": 1230,
+          "time_hr": 24,
+          "cost_inr": 1800
+        },
+        "train": {
+          "distance_km": 1270,
+          "time_hr": 22,
+          "cost_inr": 1500
+        },
+        "flight": {
+          "distance_km": 1030,
+          "time_hr": 2,
+          "cost_inr": 4500
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Mumbai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1450,
+          "time_hr": 28,
+          "cost_inr": 2000
+        },
+        "train": {
+          "distance_km": 1480,
+          "time_hr": 25,
+          "cost_inr": 1700
+        },
+        "flight": {
+          "distance_km": 1200,
+          "time_hr": 2.5,
+          "cost_inr": 4800
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Bangalore",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 350,
+          "time_hr": 7,
+          "cost_inr": 600
+        },
+        "train": {
+          "distance_km": 360,
+          "time_hr": 6,
+          "cost_inr": 500
+        },
+        "flight": {
+          "distance_km": 290,
+          "time_hr": 1,
+          "cost_inr": 2500
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Hyderabad",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 630,
+          "time_hr": 12,
+          "cost_inr": 900
+        },
+        "train": {
+          "distance_km": 630,
+          "time_hr": 10,
+          "cost_inr": 700
+        },
+        "flight": {
+          "distance_km": 510,
+          "time_hr": 1.2,
+          "cost_inr": 2500
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Hyderabad",
+      "via": ["Bangalore"],
+      "modes": {
+        "bus": {
+          "distance_km": 900,
+          "time_hr": 16,
+          "cost_inr": 1400
+        },
+        "train": {
+          "distance_km": 900,
+          "time_hr": 14,
+          "cost_inr": 1100
+        },
+        "flight": {
+          "distance_km": 870,
+          "time_hr": 2.5,
+          "cost_inr": 4000
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Kolkata",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1650,
+          "time_hr": 30,
+          "cost_inr": 2200
+        },
+        "train": {
+          "distance_km": 1650,
+          "time_hr": 26,
+          "cost_inr": 1800
+        },
+        "flight": {
+          "distance_km": 1380,
+          "time_hr": 2.5,
+          "cost_inr": 4500
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Kolkata",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1900,
+          "time_hr": 34,
+          "cost_inr": 2500
+        },
+        "train": {
+          "distance_km": 1900,
+          "time_hr": 30,
+          "cost_inr": 2000
+        },
+        "flight": {
+          "distance_km": 1600,
+          "time_hr": 3,
+          "cost_inr": 4800
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Kolkata",
+      "via": ["Hyderabad", "Delhi"],
+      "modes": {
+        "bus": {
+          "distance_km": 3100,
+          "time_hr": 55,
+          "cost_inr": 4000
+        },
+        "train": {
+          "distance_km": 3100,
+          "time_hr": 48,
+          "cost_inr": 3500
+        },
+        "flight": {
+          "distance_km": 2500,
+          "time_hr": 4.5,
+          "cost_inr": 6000
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Kolkata",
+      "via": ["Hyderabad", "Bangalore"],
+      "modes": {
+        "bus": {
+          "distance_km": 2300,
+          "time_hr": 42,
+          "cost_inr": 3200
+        },
+        "train": {
+          "distance_km": 2300,
+          "time_hr": 38,
+          "cost_inr": 2800
+        },
+        "flight": {
+          "distance_km": 2100,
+          "time_hr": 4,
+          "cost_inr": 5500
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Delhi",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 2200,
+          "time_hr": 40,
+          "cost_inr": 3500
+        },
+        "train": {
+          "distance_km": 2200,
+          "time_hr": 36,
+          "cost_inr": 3000
+        },
+        "flight": {
+          "distance_km": 1750,
+          "time_hr": 3.5,
+          "cost_inr": 6000
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Delhi",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2400,
+          "time_hr": 44,
+          "cost_inr": 3700
+        },
+        "train": {
+          "distance_km": 2400,
+          "time_hr": 39,
+          "cost_inr": 3200
+        },
+        "flight": {
+          "distance_km": 1850,
+          "time_hr": 4,
+          "cost_inr": 6300
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Delhi",
+      "via": ["Hyderabad", "Mumbai"],
+      "modes": {
+        "bus": {
+          "distance_km": 2600,
+          "time_hr": 48,
+          "cost_inr": 4000
+        },
+        "train": {
+          "distance_km": 2600,
+          "time_hr": 42,
+          "cost_inr": 3500
+        },
+        "flight": {
+          "distance_km": 2000,
+          "time_hr": 4.5,
+          "cost_inr": 6700
+        }
+      }
+    },
+
+    {
+      "from": "Chennai",
+      "to": "Delhi",
+      "via": ["Bangalore", "Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2500,
+          "time_hr": 46,
+          "cost_inr": 3900
+        },
+        "train": {
+          "distance_km": 2500,
+          "time_hr": 41,
+          "cost_inr": 3400
+        },
+        "flight": {
+          "distance_km": 1900,
+          "time_hr": 4,
+          "cost_inr": 6500
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Chennai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1330,
+          "time_hr": 24,
+          "cost_inr": 2000
+        },
+        "train": {
+          "distance_km": 1280,
+          "time_hr": 22,
+          "cost_inr": 1800
+        },
+        "flight": {
+          "distance_km": 1030,
+          "time_hr": 2,
+          "cost_inr": 4000
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Chennai",
+      "via": ["Bangalore"],
+      "modes": {
+        "bus": {
+          "distance_km": 1450,
+          "time_hr": 27,
+          "cost_inr": 2300
+        },
+        "train": {
+          "distance_km": 1420,
+          "time_hr": 25,
+          "cost_inr": 2000
+        },
+        "flight": {
+          "distance_km": 1120,
+          "time_hr": 2.5,
+          "cost_inr": 4500
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Chennai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1350,
+          "time_hr": 25,
+          "cost_inr": 2100
+        },
+        "train": {
+          "distance_km": 1300,
+          "time_hr": 23,
+          "cost_inr": 1900
+        },
+        "flight": {
+          "distance_km": 1080,
+          "time_hr": 2.2,
+          "cost_inr": 4200
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Chennai",
+      "via": ["Bangalore", "Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1550,
+          "time_hr": 29,
+          "cost_inr": 2500
+        },
+        "train": {
+          "distance_km": 1500,
+          "time_hr": 27,
+          "cost_inr": 2200
+        },
+        "flight": {
+          "distance_km": 1180,
+          "time_hr": 2.7,
+          "cost_inr": 4800
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Bangalore",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 980,
+          "time_hr": 18,
+          "cost_inr": 1400
+        },
+        "train": {
+          "distance_km": 980,
+          "time_hr": 16,
+          "cost_inr": 1100
+        },
+        "flight": {
+          "distance_km": 840,
+          "time_hr": 1.5,
+          "cost_inr": 3500
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Bangalore",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1150,
+          "time_hr": 22,
+          "cost_inr": 1700
+        },
+        "train": {
+          "distance_km": 1150,
+          "time_hr": 20,
+          "cost_inr": 1350
+        },
+        "flight": {
+          "distance_km": 950,
+          "time_hr": 2.5,
+          "cost_inr": 4000
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Hyderabad",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 710,
+          "time_hr": 13,
+          "cost_inr": 1000
+        },
+        "train": {
+          "distance_km": 710,
+          "time_hr": 12,
+          "cost_inr": 850
+        },
+        "flight": {
+          "distance_km": 620,
+          "time_hr": 1.5,
+          "cost_inr": 2800
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Hyderabad",
+      "via": ["Bangalore"],
+      "modes": {
+        "bus": {
+          "distance_km": 1690,
+          "time_hr": 32,
+          "cost_inr": 2400
+        },
+        "train": {
+          "distance_km": 1690,
+          "time_hr": 28,
+          "cost_inr": 2000
+        },
+        "flight": {
+          "distance_km": 1420,
+          "time_hr": 3,
+          "cost_inr": 5000
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Delhi",
+      "via": [],
+      "modes": {
+        "bus": { "distance_km": 1440, "time_hr": 28, "cost_inr": 2200 },
+        "train": { "distance_km": 1380, "time_hr": 17, "cost_inr": 900 },
+        "flight": { "distance_km": 1150, "time_hr": 2.0, "cost_inr": 3500 }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Delhi",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": { "distance_km": 2120, "time_hr": 42, "cost_inr": 3200 },
+        "train": { "distance_km": 2080, "time_hr": 34, "cost_inr": 2500 },
+        "flight": { "distance_km": 1700, "time_hr": 3.5, "cost_inr": 5500 }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Delhi",
+      "via": ["Hyderabad", "Bangalore"],
+      "modes": {
+        "bus": { "distance_km": 2950, "time_hr": 60, "cost_inr": 4500 },
+        "train": { "distance_km": 2850, "time_hr": 50, "cost_inr": 3700 },
+        "flight": { "distance_km": 2500, "time_hr": 5.0, "cost_inr": 7200 }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Kolkata",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1960,
+          "time_hr": 38,
+          "cost_inr": 2700
+        },
+        "train": {
+          "distance_km": 1960,
+          "time_hr": 26,
+          "cost_inr": 2200
+        },
+        "flight": {
+          "distance_km": 1650,
+          "time_hr": 2.5,
+          "cost_inr": 4500
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Kolkata",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2400,
+          "time_hr": 45,
+          "cost_inr": 3200
+        },
+        "train": {
+          "distance_km": 2400,
+          "time_hr": 32,
+          "cost_inr": 2600
+        },
+        "flight": {
+          "distance_km": 2000,
+          "time_hr": 3.5,
+          "cost_inr": 5500
+        }
+      }
+    },
+
+    {
+      "from": "Mumbai",
+      "to": "Kolkata",
+      "via": ["Hyderabad", "Delhi"],
+      "modes": {
+        "bus": {
+          "distance_km": 3100,
+          "time_hr": 60,
+          "cost_inr": 4000
+        },
+        "train": {
+          "distance_km": 3100,
+          "time_hr": 42,
+          "cost_inr": 3500
+        },
+        "flight": {
+          "distance_km": 2800,
+          "time_hr": 5,
+          "cost_inr": 7000
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Chennai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 350,
+          "time_hr": 7,
+          "cost_inr": 600
+        },
+        "train": {
+          "distance_km": 360,
+          "time_hr": 6,
+          "cost_inr": 500
+        },
+        "flight": {
+          "distance_km": 290,
+          "time_hr": 1,
+          "cost_inr": 2500
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Chennai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1240,
+          "time_hr": 24,
+          "cost_inr": 1800
+        },
+        "train": {
+          "distance_km": 1240,
+          "time_hr": 20,
+          "cost_inr": 1500
+        },
+        "flight": {
+          "distance_km": 1030,
+          "time_hr": 3,
+          "cost_inr": 4500
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Mumbai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 980,
+          "time_hr": 16,
+          "cost_inr": 1200
+        },
+        "train": {
+          "distance_km": 1030,
+          "time_hr": 14,
+          "cost_inr": 900
+        },
+        "flight": {
+          "distance_km": 840,
+          "time_hr": 1.5,
+          "cost_inr": 3000
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Mumbai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1150,
+          "time_hr": 20,
+          "cost_inr": 1600
+        },
+        "train": {
+          "distance_km": 1180,
+          "time_hr": 18,
+          "cost_inr": 1400
+        },
+        "flight": {
+          "distance_km": 950,
+          "time_hr": 2.5,
+          "cost_inr": 4000
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Delhi",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 2150,
+          "time_hr": 40,
+          "cost_inr": 3200
+        },
+        "train": {
+          "distance_km": 2150,
+          "time_hr": 34,
+          "cost_inr": 2800
+        },
+        "flight": {
+          "distance_km": 1750,
+          "time_hr": 2.5,
+          "cost_inr": 5000
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Delhi",
+      "via": ["Hyderabad", "Mumbai"],
+      "modes": {
+        "bus": {
+          "distance_km": 2700,
+          "time_hr": 55,
+          "cost_inr": 4000
+        },
+        "train": {
+          "distance_km": 2700,
+          "time_hr": 42,
+          "cost_inr": 3500
+        },
+        "flight": {
+          "distance_km": 2300,
+          "time_hr": 4,
+          "cost_inr": 6500
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Kolkata",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1870,
+          "time_hr": 36,
+          "cost_inr": 2700
+        },
+        "train": {
+          "distance_km": 1870,
+          "time_hr": 30,
+          "cost_inr": 2400
+        },
+        "flight": {
+          "distance_km": 1550,
+          "time_hr": 2.5,
+          "cost_inr": 4800
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Kolkata",
+      "via": ["Hyderabad", "Delhi"],
+      "modes": {
+        "bus": {
+          "distance_km": 2800,
+          "time_hr": 55,
+          "cost_inr": 3900
+        },
+        "train": {
+          "distance_km": 2800,
+          "time_hr": 44,
+          "cost_inr": 3500
+        },
+        "flight": {
+          "distance_km": 2500,
+          "time_hr": 4.5,
+          "cost_inr": 7000
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Hyderabad",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 570,
+          "time_hr": 10,
+          "cost_inr": 900
+        },
+        "train": {
+          "distance_km": 570,
+          "time_hr": 9,
+          "cost_inr": 700
+        },
+        "flight": {
+          "distance_km": 500,
+          "time_hr": 1,
+          "cost_inr": 2500
+        }
+      }
+    },
+
+    {
+      "from": "Bangalore",
+      "to": "Hyderabad",
+      "via": ["Mumbai"],
+      "modes": {
+        "bus": {
+          "distance_km": 1400,
+          "time_hr": 28,
+          "cost_inr": 2200
+        },
+        "train": {
+          "distance_km": 1400,
+          "time_hr": 24,
+          "cost_inr": 1800
+        },
+        "flight": {
+          "distance_km": 1250,
+          "time_hr": 3,
+          "cost_inr": 5000
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Chennai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 630,
+          "time_hr": 12,
+          "cost_inr": 950
+        },
+        "train": {
+          "distance_km": 630,
+          "time_hr": 10,
+          "cost_inr": 800
+        },
+        "flight": {
+          "distance_km": 520,
+          "time_hr": 1.25,
+          "cost_inr": 2600
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Chennai",
+      "via": ["Bangalore"],
+      "modes": {
+        "bus": {
+          "distance_km": 970,
+          "time_hr": 20,
+          "cost_inr": 1600
+        },
+        "train": {
+          "distance_km": 970,
+          "time_hr": 18,
+          "cost_inr": 1400
+        },
+        "flight": {
+          "distance_km": 880,
+          "time_hr": 2.5,
+          "cost_inr": 4000
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Bangalore",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 570,
+          "time_hr": 10,
+          "cost_inr": 900
+        },
+        "train": {
+          "distance_km": 570,
+          "time_hr": 9,
+          "cost_inr": 700
+        },
+        "flight": {
+          "distance_km": 500,
+          "time_hr": 1,
+          "cost_inr": 2500
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Bangalore",
+      "via": ["Mumbai"],
+      "modes": {
+        "bus": {
+          "distance_km": 1400,
+          "time_hr": 28,
+          "cost_inr": 2200
+        },
+        "train": {
+          "distance_km": 1400,
+          "time_hr": 24,
+          "cost_inr": 1800
+        },
+        "flight": {
+          "distance_km": 1250,
+          "time_hr": 3,
+          "cost_inr": 5000
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Delhi",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1550,
+          "time_hr": 28,
+          "cost_inr": 2300
+        },
+        "train": {
+          "distance_km": 1550,
+          "time_hr": 24,
+          "cost_inr": 2000
+        },
+        "flight": {
+          "distance_km": 1250,
+          "time_hr": 2,
+          "cost_inr": 4000
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Delhi",
+      "via": ["Mumbai"],
+      "modes": {
+        "bus": {
+          "distance_km": 1900,
+          "time_hr": 36,
+          "cost_inr": 2800
+        },
+        "train": {
+          "distance_km": 1900,
+          "time_hr": 30,
+          "cost_inr": 2400
+        },
+        "flight": {
+          "distance_km": 1600,
+          "time_hr": 3.5,
+          "cost_inr": 5500
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Mumbai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 710,
+          "time_hr": 13,
+          "cost_inr": 1000
+        },
+        "train": {
+          "distance_km": 710,
+          "time_hr": 12,
+          "cost_inr": 850
+        },
+        "flight": {
+          "distance_km": 620,
+          "time_hr": 1.5,
+          "cost_inr": 2800
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Mumbai",
+      "via": ["Bangalore"],
+      "modes": {
+        "bus": {
+          "distance_km": 1290,
+          "time_hr": 26,
+          "cost_inr": 2100
+        },
+        "train": {
+          "distance_km": 1290,
+          "time_hr": 22,
+          "cost_inr": 1700
+        },
+        "flight": {
+          "distance_km": 1150,
+          "time_hr": 3,
+          "cost_inr": 4800
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Kolkata",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1500,
+          "time_hr": 32,
+          "cost_inr": 2300
+        },
+        "train": {
+          "distance_km": 1500,
+          "time_hr": 26,
+          "cost_inr": 2000
+        },
+        "flight": {
+          "distance_km": 1200,
+          "time_hr": 2,
+          "cost_inr": 3800
+        }
+      }
+    },
+    {
+      "from": "Hyderabad",
+      "to": "Kolkata",
+      "via": ["Delhi"],
+      "modes": {
+        "bus": {
+          "distance_km": 2100,
+          "time_hr": 44,
+          "cost_inr": 3100
+        },
+        "train": {
+          "distance_km": 2100,
+          "time_hr": 36,
+          "cost_inr": 2700
+        },
+        "flight": {
+          "distance_km": 1900,
+          "time_hr": 3.5,
+          "cost_inr": 6000
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Chennai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1670,
+          "time_hr": 34,
+          "cost_inr": 2500
+        },
+        "train": {
+          "distance_km": 1670,
+          "time_hr": 28,
+          "cost_inr": 2200
+        },
+        "flight": {
+          "distance_km": 1380,
+          "time_hr": 2.5,
+          "cost_inr": 4500
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Chennai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2000,
+          "time_hr": 42,
+          "cost_inr": 3100
+        },
+        "train": {
+          "distance_km": 2000,
+          "time_hr": 34,
+          "cost_inr": 2700
+        },
+        "flight": {
+          "distance_km": 1700,
+          "time_hr": 3.5,
+          "cost_inr": 5800
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Bangalore",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1870,
+          "time_hr": 36,
+          "cost_inr": 2700
+        },
+        "train": {
+          "distance_km": 1870,
+          "time_hr": 30,
+          "cost_inr": 2400
+        },
+        "flight": {
+          "distance_km": 1550,
+          "time_hr": 2.5,
+          "cost_inr": 4800
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Bangalore",
+      "via": ["Delhi", "Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2900,
+          "time_hr": 55,
+          "cost_inr": 4000
+        },
+        "train": {
+          "distance_km": 2900,
+          "time_hr": 46,
+          "cost_inr": 3500
+        },
+        "flight": {
+          "distance_km": 2600,
+          "time_hr": 5,
+          "cost_inr": 7200
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Delhi",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1500,
+          "time_hr": 30,
+          "cost_inr": 2200
+        },
+        "train": {
+          "distance_km": 1500,
+          "time_hr": 24,
+          "cost_inr": 1900
+        },
+        "flight": {
+          "distance_km": 1300,
+          "time_hr": 2.25,
+          "cost_inr": 4200
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Delhi",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2100,
+          "time_hr": 42,
+          "cost_inr": 3100
+        },
+        "train": {
+          "distance_km": 2100,
+          "time_hr": 36,
+          "cost_inr": 2700
+        },
+        "flight": {
+          "distance_km": 1900,
+          "time_hr": 3.5,
+          "cost_inr": 5900
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Mumbai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1960,
+          "time_hr": 38,
+          "cost_inr": 2700
+        },
+        "train": {
+          "distance_km": 1960,
+          "time_hr": 26,
+          "cost_inr": 2200
+        },
+        "flight": {
+          "distance_km": 1650,
+          "time_hr": 2.5,
+          "cost_inr": 4500
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Mumbai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2400,
+          "time_hr": 45,
+          "cost_inr": 3200
+        },
+        "train": {
+          "distance_km": 2400,
+          "time_hr": 32,
+          "cost_inr": 2600
+        },
+        "flight": {
+          "distance_km": 2000,
+          "time_hr": 3.5,
+          "cost_inr": 5500
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Hyderabad",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1500,
+          "time_hr": 32,
+          "cost_inr": 2300
+        },
+        "train": {
+          "distance_km": 1500,
+          "time_hr": 26,
+          "cost_inr": 2000
+        },
+        "flight": {
+          "distance_km": 1200,
+          "time_hr": 2,
+          "cost_inr": 3800
+        }
+      }
+    },
+    {
+      "from": "Kolkata",
+      "to": "Hyderabad",
+      "via": ["Delhi"],
+      "modes": {
+        "bus": {
+          "distance_km": 2100,
+          "time_hr": 44,
+          "cost_inr": 3100
+        },
+        "train": {
+          "distance_km": 2100,
+          "time_hr": 36,
+          "cost_inr": 2700
+        },
+        "flight": {
+          "distance_km": 1900,
+          "time_hr": 3.5,
+          "cost_inr": 6000
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Chennai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 2200,
+          "time_hr": 42,
+          "cost_inr": 3200
+        },
+        "train": {
+          "distance_km": 2200,
+          "time_hr": 36,
+          "cost_inr": 2800
+        },
+        "flight": {
+          "distance_km": 1750,
+          "time_hr": 3,
+          "cost_inr": 5000
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Chennai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2500,
+          "time_hr": 50,
+          "cost_inr": 3800
+        },
+        "train": {
+          "distance_km": 2500,
+          "time_hr": 42,
+          "cost_inr": 3200
+        },
+        "flight": {
+          "distance_km": 2100,
+          "time_hr": 4,
+          "cost_inr": 6500
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Bangalore",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 2150,
+          "time_hr": 40,
+          "cost_inr": 3100
+        },
+        "train": {
+          "distance_km": 2150,
+          "time_hr": 34,
+          "cost_inr": 2700
+        },
+        "flight": {
+          "distance_km": 1750,
+          "time_hr": 2.75,
+          "cost_inr": 4800
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Bangalore",
+      "via": ["Mumbai", "Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2800,
+          "time_hr": 55,
+          "cost_inr": 4300
+        },
+        "train": {
+          "distance_km": 2800,
+          "time_hr": 46,
+          "cost_inr": 3500
+        },
+        "flight": {
+          "distance_km": 2500,
+          "time_hr": 4.5,
+          "cost_inr": 7000
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Kolkata",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1500,
+          "time_hr": 30,
+          "cost_inr": 2200
+        },
+        "train": {
+          "distance_km": 1500,
+          "time_hr": 24,
+          "cost_inr": 1900
+        },
+        "flight": {
+          "distance_km": 1300,
+          "time_hr": 2.25,
+          "cost_inr": 4200
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Kolkata",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 2100,
+          "time_hr": 42,
+          "cost_inr": 3100
+        },
+        "train": {
+          "distance_km": 2100,
+          "time_hr": 36,
+          "cost_inr": 2700
+        },
+        "flight": {
+          "distance_km": 1900,
+          "time_hr": 3.5,
+          "cost_inr": 5900
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Mumbai",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1400,
+          "time_hr": 24,
+          "cost_inr": 2000
+        },
+        "train": {
+          "distance_km": 1400,
+          "time_hr": 18,
+          "cost_inr": 1600
+        },
+        "flight": {
+          "distance_km": 1150,
+          "time_hr": 2,
+          "cost_inr": 3500
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Mumbai",
+      "via": ["Hyderabad"],
+      "modes": {
+        "bus": {
+          "distance_km": 1900,
+          "time_hr": 36,
+          "cost_inr": 2800
+        },
+        "train": {
+          "distance_km": 1900,
+          "time_hr": 30,
+          "cost_inr": 2400
+        },
+        "flight": {
+          "distance_km": 1600,
+          "time_hr": 3.5,
+          "cost_inr": 5200
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Hyderabad",
+      "via": [],
+      "modes": {
+        "bus": {
+          "distance_km": 1550,
+          "time_hr": 28,
+          "cost_inr": 2300
+        },
+        "train": {
+          "distance_km": 1550,
+          "time_hr": 24,
+          "cost_inr": 2000
+        },
+        "flight": {
+          "distance_km": 1250,
+          "time_hr": 2,
+          "cost_inr": 4000
+        }
+      }
+    },
+    {
+      "from": "Delhi",
+      "to": "Hyderabad",
+      "via": ["Mumbai"],
+      "modes": {
+        "bus": {
+          "distance_km": 1900,
+          "time_hr": 36,
+          "cost_inr": 2800
+        },
+        "train": {
+          "distance_km": 1900,
+          "time_hr": 30,
+          "cost_inr": 2400
+        },
+        "flight": {
+          "distance_km": 1600,
+          "time_hr": 3.5,
+          "cost_inr": 5500
+        }
+      }
+    }
+  ]
+}
