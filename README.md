@@ -44,7 +44,7 @@ Together, these paradigms create a **hybrid system** where:
 - C provides a fast and simple CLI backbone.
 - C++ efficiently manages structured data using objects and JSON parsing.
 - Prolog allows complex logical queries about routes and connections.
-- Python enables flexible extensions, visualization, or AI-powered features.
+- Python enables printing of required routes using functions 
 
 ---
 
@@ -59,25 +59,13 @@ Together, these paradigms create a **hybrid system** where:
 
 ### Steps
 
-1. Open PowerShell and navigate to the C++ source folder:
+1. Open PowerShell and navigate to the C source folder:
 
 ```powershell
-cd D:\STARTED\CTCTG\Cpp_Object
-Compile the C++ executable:
+cd D:\STARTED\CTCTG\C_Imperative
+Compile the C executable:
 
-powershell
-Copy
-Edit
-g++ -std=c++17 -o Call Call.cpp
-Ensure the JSON library (json.hpp) is in the same folder as Call.cpp.
 
-Run the executable:
-
-powershell
-Copy
-Edit
-.\Call.exe
-Running the CLI
 After running the executable, you will see the menu:
 
 pgsql
