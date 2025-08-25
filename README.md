@@ -68,9 +68,6 @@ Compile the C executable:
 
 After running the executable, you will see the menu:
 
-pgsql
-Copy
-Edit
 ========== CTCTG CLI ==========
 1. Available routes between From → To
 2. For the chosen route, show all modes of transport, cost, time, distance
@@ -83,31 +80,13 @@ Provide city names when prompted. Travel times and distances are displayed in a 
 
 Example:
 
-vbnet
-Copy
-Edit
 From: Chennai
 To: Mumbai
 Route from Chennai to Mumbai:
 Bus: 12 hours
 Train: 10 hours
 Flight: 2 hours
-Project Structure
-pgsql
-Copy
-Edit
-CTCTG/
-├── Cpp_Object/
-│   ├── Call.cpp          # Main C++ source file (JSON parsing, travel classes)
-│   ├── json.hpp          # JSON library header
-│   └── Call.exe          # Compiled executable
-├── C_Imperative/
-│   ├── Main.c            # CLI integration and user interface
-│   └── Main.exe
-├── Data/
-│   ├── Time.json         # Travel times data
-│   └── Routes.json       # Routes and distances data
-└── README.md
+
 Notes
 City names are case-insensitive when entering input.
 
