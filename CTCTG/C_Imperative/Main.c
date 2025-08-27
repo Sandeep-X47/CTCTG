@@ -41,9 +41,8 @@ void callCpp(const char *exe)
 void callProlog(const char *script, const char *from, const char *to, const char *via)
 {
     char command[500];
-    // Pass all arguments to print_message/3 in Prolog
     snprintf(command, sizeof(command),
-             "swipl -q -s ..\\Prolog_Logic\\%s -g \"print_message('%s','%s','%s')\" -t halt",
+             "swipl -q -s ..\\Prolog_Logic\\%s -g \"print_message(\\\"%s\\\",\\\"%s\\\",\\\"%s\\\")\" -t halt",
              script, from, to, via);
     system(command);
 }
