@@ -1,5 +1,4 @@
 % Qna.pl
-
 % ---------- Sample Routes ----------
 % route(Start, End, [IntermediateCities])
 route(chennai, mumbai, [direct]).
@@ -71,26 +70,23 @@ route(delhi, mumbai, [hyderabad]).
 route(delhi, hyderabad, [direct]).
 route(delhi, hyderabad, [mumbai]).
 
-
 % ---------- Helper: Convert strings to lowercase ----------
 to_lower(Str, Lower) :-
     string_lower(Str, Lower).
 
 % ---------- Check if route exists via a city ----------
-% from, to, via are all strings
+% From, To, Via are strings
 print_message(From, To, Via) :-
     to_lower(From, FromL),
     to_lower(To, ToL),
     to_lower(Via, ViaL),
 
-    % Find a route matching From → To
+    % Check if there is a route from From to To via Via
     (   route(FromAtom, ToAtom, Intermediates),
-        atom_string(FromAtom, FromL), % match From
-        atom_string(ToAtom, ToL),     % match To
-        % convert intermediates to lowercase strings
+        atom_string(FromAtom, FromL),
+        atom_string(ToAtom, ToL),
         maplist(atom_string, Intermediates, InterStrs),
         maplist(string_lower, InterStrs, InterStrsLower),
-        % check if Via city exists in intermediates
         member(ViaL, InterStrsLower)
     ->  format("Yes! There is a route from ~w to ~w via ~w.~n", [From, To, Via])
     ;   format("No route found from ~w to ~w via ~w.~n", [From, To, Via])
